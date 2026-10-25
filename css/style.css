@@ -83,6 +83,16 @@ header{
   letter-spacing:2px;
   line-height:1.35;
   white-space:nowrap;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.logo-icon{
+  width:34px;
+  height:34px;
+  object-fit:contain;
+  flex:0 0 auto;
 }
 
 nav ul{
@@ -900,6 +910,12 @@ footer p{
   .logo{
     font-size:1.05rem;
     letter-spacing:1px;
+    gap:8px;
+  }
+
+  .logo-icon{
+    width:28px;
+    height:28px;
   }
 
   .menu-btn{
